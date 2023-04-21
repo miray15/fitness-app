@@ -1,4 +1,4 @@
-json.name exericse.name 
+json.name exercise.name 
 json.video exercise.video
 json.directions exercise.directions
 json.sets exercise.sets
