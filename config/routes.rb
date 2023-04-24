@@ -5,6 +5,7 @@ post "/exercises" => "exercises#create"
 get "/exercises/:id" => "exercises#show"
 
 get "/recipes" => "recipes#index"
-get "/recipes" => "recipes#show"
+get "/recipes/:id" => "recipes#show"
+post "/recipes" => "recipes#create"
 
 end
