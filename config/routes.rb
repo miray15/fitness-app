@@ -8,4 +8,7 @@ get "/recipes" => "recipes#index"
 get "/recipes/:id" => "recipes#show"
 post "/recipes" => "recipes#create"
 
+get "/users" => "users#index"
+
+
 end
