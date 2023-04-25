@@ -17,6 +17,8 @@ get "/users" => "users#show"
 patch "/users/:id" => "users#update"
 delete "/users/:id" => "users#destroy"
 
-get "/user_exerises" => "users#index"
-get "/user_exerises/:id" => "users#show"
-end
+get "/user_exercises" => "user_exercises#index"
+get "/user_exercises/:id" => "user_exercises#show"
+
+end 
+
