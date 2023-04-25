@@ -8,8 +8,21 @@
 # exercise = Exercise.create(name:"Dumbell Row", directions:"Start by standing straight, with your feet slightly wider than shoulder-width apart, and your arms at your sides.
 #  Brace your core and, keeping your chest and chin up, push your hips back and bend your knees as if you’re going to sit in a chair. Ensuring your knees don’t bow inward or outward, drop down until your thighs are parallel to the ground, bringing your arms out in front of you in a comfortable position. Pause for 1 second, then extend your legs and return to the starting position.", sets:2, reps:15)
 
-recipe = Recipe.create(name: "Healthy blueberry muffins", image_url:"tbd", ingredients:"Blueberries, sugar, flour", directions: "mix and bake"),
+# recipe = Recipe.create(name: "Healthy blueberry muffins", image_url:"tbd", ingredients:"Blueberries, sugar, flour", directions: "mix and bake"),
 
-recipe = Recipe.create(name: "Salmon Steaks", image_url:"tbd", ingredients:"Salmon, balsamic vinegar", directions: "top and bake"),
+# recipe = Recipe.create(name: "Salmon Steaks", image_url:"tbd", ingredients:"Salmon, balsamic vinegar", directions: "top and bake"),
 
-recipe = Recipe.create(name: "Pecan pancakes", image_url:"tbd", ingredients:"pecans, sugar, flour", directions: "mix and fry")
+# recipe = Recipe.create(name: "Pecan pancakes", image_url:"tbd", ingredients:"pecans, sugar, flour", directions: "mix and fry")
+
+# user = User.create(name: "Jessica", recipe_id: 1, exercise_id: 1),
+# user = User.create(name: "Mimi", recipe_id: 2, exercise_id: 4),
+# user = User.create(name: "Diane", recipe_id: 1, exercise_id: 4),
+# user = User.create(name: "Jeffrey", recipe_id: 3, exercise_id: 2),
+# user = User.create(name: "Taylor", recipe_id: 2, exercise_id: 3),
+# user = User.create(name: "Candyce", recipe_id: 2, exercise_id: 4),
+# user = User.create(name: "Marion", recipe_id: 1, exercise_id: 3)
+
+UserExercise.create(
+user_id: 1,
+exercise_id: 1,
+)
