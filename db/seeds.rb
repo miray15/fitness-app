@@ -22,11 +22,12 @@
 # user = User.create(name: "Candyce", recipe_id: 2, exercise_id: 4),
 # user = User.create(name: "Marion", recipe_id: 1, exercise_id: 3)
 
-# Userexercise.create(
-# user_id: 1, recipe_id: 1, exercise_id: 1)
+UserExercise.create(
+user_id: 1, exercise_id: 1)
 
-# Userexercise.create(
-#   user_id: 2, recipe_id: 1, exercise_id: 2)
+UserExercise.create(
+  user_id: 1, exercise_id: 2)
 
-#   Userexercise.create(
-#     user_id: 3, recipe_id: 1, exercise_id: 2)
+  UserExercise.create(
+    user_id: 1, exercise_id: 3)
+
