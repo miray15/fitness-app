@@ -13,7 +13,7 @@ delete "/recipes/:id" => "recipes#destroy"
 
 
 get "/users" => "users#index"
-get "/users" => "users#show"
+get "/users/:id" => "users#show"
 patch "/users/:id" => "users#update"
 delete "/users/:id" => "users#destroy"
 

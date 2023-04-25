@@ -1,2 +1,3 @@
 json.name user.name 
-json.exercise_id user.user_exercises
+# json.user_exercises user.user_exercises
+json.exercises user.exercises 
