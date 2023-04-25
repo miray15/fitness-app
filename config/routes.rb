@@ -20,5 +20,8 @@ delete "/users/:id" => "users#destroy"
 get "/user_exercises" => "user_exercises#index"
 get "/user_exercises/:id" => "user_exercises#show"
 
+get "/user_recipes" => "user_recipes#index"
+get "/user_recipes/:id" => "user_recipes#show"
+
 end 
 

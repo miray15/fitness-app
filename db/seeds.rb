@@ -31,3 +31,12 @@
 #   UserExercise.create(
 #     user_id: 1, exercise_id: 3)
 
+
+UserRecipe.create(
+  user_id: 2, recipe_id: 1)
+  
+  UserRecipe.create(
+    user_id: 2, recipe_id: 2)
+  
+    UserRecipe.create(
+      user_id: 2, recipe_id: 3)
