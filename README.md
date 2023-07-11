@@ -1,24 +1,7 @@
-# README
+The purpose of this project is to build a fullstack app using a Ruby backend and a React.js frontend. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Users are currently able to create an account, log in, create and add recipes and exercises to their home page, and edit those exercises and recipes for their home page.
 
-Things you may want to cover:
+As far as further functionality, I want to integrate a "messaging" feature for a user to communicate to their coach. I also want to integrate the ability for the coach and users to take videos of workouts (the coach to show proper form and the user to show current form for correction. I want those videos to be able to be saved to workouts and individual exercises. There will also be functionality to connect to videos online if a coach doesn't have time to make their own video. Knowing that many people are motivated by working with and competing with others, I want to add a competition aspect to things like number of workouts per week, time spend on cardio, and steps per day. The ability to form groups for the coach to work with would also be something I'd like to do. Adding personalized features like a profile picture would also be something I'd want to integrate.  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The goal of this website is to present it to fitness coaches as a sample of my skills to start side projects as a fitness website and (eventually) app developer for coaches. I was inspired to do this by my personal fitness coach who was frustrated with the apps that were currently available for fitness coaches. 
