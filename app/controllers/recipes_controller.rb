@@ -1,8 +1,11 @@
 class RecipesController < ApplicationController
+  
+  
   def index 
     @recipes = Recipe.all 
     render :index 
   end 
+
 
   def show
     @recipe = Recipe.find_by(id: params[:id])
@@ -25,6 +28,6 @@ class RecipesController < ApplicationController
   def destroy
     @recipe = Recipe.find_by(id: params[:id])
     @recipe.destroy
-    render json: {message: "The recipe has been successfully destroyed"}
+    render json: {message: "This recipe has been deleted"}
   end 
 end
