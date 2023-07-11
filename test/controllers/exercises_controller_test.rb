@@ -21,6 +21,6 @@ class ExercisesControllerTest < ActionDispatch::IntegrationTest
     assert_response 200
 
     data = JSON.parse(response.body)
-    assert_equal ["name", "video", "directions", "sets", "reps"], data.keys
+    assert_equal ["id", "name", "video", "directions", "sets", "reps"], data.keys
   end
 end
