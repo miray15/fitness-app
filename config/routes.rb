@@ -36,5 +36,8 @@ get "/user_recipes/:id" => "user_recipes#show"
 
 resources :user_recipes
 
+
+post "/sessions" => "sessions#create"
+
 end 
 
